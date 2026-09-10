@@ -7,15 +7,11 @@
 
 console.log(1, 1 == "1");            // prediction: true
 console.log(2, 1 === "1");           // prediction: false
-// 타입이 다르기 때문이다.
 console.log(3, 0 == "");             // prediction: true
 console.log(4, 0 === "");            // prediction: false
-// 타입이 다르기 때문이다.
 console.log(5, "" == " ");           // prediction: false
-// 빈 문자열과 공백 문자열은 다르기 때문이다.
 console.log(6, null == undefined);   // prediction: true
 console.log(7, null === undefined);  // prediction: false
-// 타입이 다르기 때문이다.
 console.log(8, "4" - true);          // prediction: 3
 console.log(9, "4" + 1);             // prediction: 41
 console.log(10, "4" * "2");          // prediction: 8
